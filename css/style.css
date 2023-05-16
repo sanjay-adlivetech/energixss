@@ -4,8 +4,8 @@ body{
     font-family: 'Space Grotesk';
 }
 .top-strip {
-    background: #3B955F;
-    padding: 10px;
+    background: #3b955f;
+    padding: 5px 10px;
 }
 .help-desk {
     text-align: right;
@@ -24,6 +24,7 @@ body{
 }
 .help-desk span {
     font-size: 14px;
+    font-weight: 300;
 }
 a{
     text-decoration: none;
@@ -65,15 +66,16 @@ a{
 }
 .banner-caption h6 {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 26px;
     font-weight: 400;
 }
 .banner-caption h2 {
     font-size: 3.9rem;
     line-height: normal;
-    margin: 15px 0px 45px;
+    margin: 0px 0px 28px;
     font-weight: 400;
+    color: #000;
 }
 .banner-caption a {
     display: inline-block;
@@ -102,12 +104,12 @@ a{
 .counter-bar p {
     margin-bottom: 0px;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 .counter-section {
     background-color: #e9f8ef;
-    padding: 30px 0px;
+    padding: 15px 0px 30px;
 }
 .counter-bar p span {
     color: #3b955f;
@@ -117,14 +119,14 @@ a{
     padding: 50px 0px 0px;
 }
 .world-compaines {
-    padding: 50px 30px;
+    padding: 20px 30px 50px;
     /* background-color: #fafbfd; */
 }
 .main-title {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     border-top: 3px solid #7f7f7f;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 .main-title h4 {
     font-size: 22px;
@@ -140,12 +142,12 @@ a{
     /* background-color: #fafbfd; */
 }
 .main-title-compare {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     border-bottom: 3px solid #7f7f7f;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .main-title-compare h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #000000;
     margin-bottom: 25px;
@@ -154,38 +156,43 @@ a{
     font-size: 1.3rem;
     color: #000000;
     line-height: 2.4rem;
+    margin-bottom: 0px;
 }
 .Box-item {
     padding: 20px;
     background-color: #ffff;
     border-radius: 10px;
+    padding-left: 0px;
 }
 .Box-item h3 {
     font-size: 1.8rem;
-    margin: 25px 0px 20px;
+    margin: 15px 0px 15px;
     font-weight: 700;
 }
 .Box-item p {
     color: #bfbfbf;
     margin-bottom: 0px;
-    font-size: 1.09rem;
+    font-size: 1.03rem;
     line-height: 2rem;
 }
 .box-warrper-blue {
-    padding: 40px 50px;
+    padding: 40px 45px;
     background: #E9F8EF;
     border: 3px solid #cee4d7;
     border-radius: 10px;
-    margin: 0.8rem 0px 3rem;
+    margin: 0rem 0px 2rem;
 }
 .item-whhite-outline {
     width: 100%;
     background-color: #ffffff;
     border: 1px solid #bddfcb;
     border-radius: 10px;
-    margin-bottom: 10px;
-    padding: 30px 20px;
+    margin-bottom: 22px;
+    padding: 22px 20px;
     position: relative;
+}
+.box-warrper-blue .row:nth-child(2) .item-whhite-outline {
+    margin-bottom: 0px;
 }
 .main-title-compare span {
     color: #3b955f;
@@ -193,15 +200,15 @@ a{
 .item-whhite-outline h2 {
     font-weight: 500;
     font-size: 2.2rem;
-    margin-top: 18px;
+    margin-top: 7px;
     color: #000000;
 }
 .item-whhite-outline span {
-    font-size: 12px;
+    font-size: 14px;
 }
 .icon-arrow {
     position: absolute;
-    bottom: 20px;
+    bottom: 24px;
     right: 20px;
 }
 
@@ -209,7 +216,7 @@ a{
 
 .footer-main {
     background-color: #163560;
-    padding: 50px 0px 30px;
+    padding: 70px 0px 70px;
 }
 .suscribe-warrper h3 {
     font-size: 1.5rem;
@@ -246,13 +253,15 @@ a{
 }
 .form-view button {
     background-color: #3b955f;
-    padding: 12px 30px;
-    border-radius: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
     margin-left: 10px;
     border: 2px solid #3b955f;
     position: absolute;
     right: 10px;
     color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
 }
 .footer-naviagtion h4 {
     font-size: 18px;
@@ -274,6 +283,13 @@ a{
 }
 .footer-logo {
     padding-top: 30px;
+}
+
+
+@media (min-width:993px){
+.main-banner .col-lg-7 {
+    width: 53.333333%;
+}
 }
 
 @media (max-width:767px){
