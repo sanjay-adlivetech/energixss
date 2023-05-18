@@ -235,7 +235,7 @@
     color: #000000;
     transition: color 0.3s, background 0.3s;
     line-height: normal;
-    font-weight: 500;
+    font-weight: 300;
   }
   
   .navigation-portrait .nav-menu > li > a {
@@ -972,7 +972,7 @@
     color: #3b955f;
   }
   .nav-header img {
-    max-width: 170px;
+    max-width: 190px;
 }
   
   .main_header_area.sticky {
